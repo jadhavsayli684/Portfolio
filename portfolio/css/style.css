@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+    
+    
+    /*navbar  */
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center; 
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+     
+}
+
+.navlist li{
+    list-style: none;
+} 
+.navlist li a{
+    position: relative;
+    text-decoration: none;
+    color:white;
+    right: 18px;
+    font-size: 25px;
+    
+}
+.navlist li a:hover{
+    color: chocolate;
+    padding: 10px;
+}
+.left-container,.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left-container{
+    background-color:#262525 ;
+    width: 70%;
+   
+}
+.right-container{
+    background:linear-gradient(#3877ff,#262525) ;
+    width: 30%;
+   
+   
+}
+.icon{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    gap: 3rem;
+    
+}
+.container-2{
+    margin-left: 40px;
+}
+.container-2 .intro{
+color: white;
+
+}
+.container-2 .intro span{
+    color: #5db9ee;
+}
+
+.container-2 h1{
+    font-size:4rem;
+    color: #5db9ee;
+
+}
+
+.container-2 p{
+    color: white;
+}
+.detail{
+    margin: 20px 0px 20px 0px;
+    
+}
+.btn button{
+    margin-left: 20px;
+    border: blue; 
+    
+}
+.btn-1{
+     position: relative;
+     font-size: 28px;
+     background-color:#5db9ee;
+     right: 20px;
+     border-radius: 10px;
+     padding: 1.1rem;
+   
+}
+.btn-2{
+    font-size: 30px;
+    background-color: #5db9ee;
+    border-radius: 10px;
+    padding: 1.0rem;
+   
+}
+.btn .btn-1:hover{
+    background:transparent;
+    color: #5db9ee;
+    
+}
+.btn .btn-2:hover{
+    background:transparent;
+    color: #5db9ee;
+    
+}
+.design .circle-1,.circle-2{
+   
+    aspect-ratio: 1; 
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+.circle-1{
+    background:linear-gradient();
+    width: 20rem;
+    
+ }
+ .circle-2{
+    background-image: url("../img/WhatsApp Image 2025-01-02 at 23.40.36_d714b2a1.jpg");
+    background-color:white ;
+    width: 15rem;
+    box-shadow: 0 0 1rem white; 
+ }
+   /* about section */
+
+ .about-section{
+
+    width: 100%;
+     height: 50vh; 
+ }
+  .image-box{
+     background-image:url("../img/profileimg.jpg");
+     height: 250px;
+     width: 250px; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 100%; 
+     margin-left: 20%;
+     margin-top: 90px;   
+ }
+ .content{
+    position: relative;
+    bottom: 60%;
+ }
+  .back{
+    margin-left:30rem ;
+    display: flex;
+    
+   
+ }
+ .back span{
+    color: orangered;
+    margin-left: 20px;
+   
+
+ }
+.front{
+    margin-left:30rem ;
+    display: flex;
+    margin-top: 20px;
+   
+}
+.front span{
+    color: orangered;
+    margin-left: 20px;
+}
+.dec{
+    position: absolute;
+    margin-left:30rem ;
+    margin-bottom:90px ;
+   margin-top: 30px;
+   font-size: 20px;
+    
+} 
+.btn7{
+    position: relative;
+    top: 100px;
+    margin-left: 40%;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+} 
+.content .btn7:hover{
+    background:transparent;
+    background-color: #D0DDD0;
+}
+
+   /* project section */
+ 
+ .project-1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    background-color:#E1EACD;
+    
+  }
+
+ .project{ 
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+ }
+ 
+ 
+.box{
+    height: 290px;
+    width: 27%; 
+   margin-top: 30px;
+}
+.box1{
+    background-image: url("../img/loader.jpg");
+    background-repeat: no-repeat;
+    
+}
+.box2{
+  background-image: url("../img/zomato.jpg");
+    
+} 
+ .box3{
+        background-image: url("../img/amazon.jpg");      
+} 
+
+.link{
+    font-size: 1.2rem;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+    /* education */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #D0DDD0;
+    height: 300px;
+    margin-top: 150px;
+    
+  }
+  
+ 
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  
+ 
+  .education-section {
+    margin-top: 30px;
+  }
+  
+  .education-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .education-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .education-table th, .education-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: #f8f8f8;
+  }
+  
+  .education-table th {
+    background-color: #f8f8f8; 
+  }
+  
+  .education-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .education-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  .contact-form{
+    position: relative;
+    bottom: 130px;
+    right: 190px;
+  
+} 
+.contact-form h2{
+    text-align: center;  
+    position: relative;
+    margin-top: 6em;
+    margin-bottom: 1em;
+    font-size: 40px; 
+    
+}
+
+.contact-container .contact-me span{
+    color: orangered;
+    margin-left: 20px;
+    text-align: center;
+} 
+
+ 
+ .contact-container{
+       text-align:center;
+       height:600px;    
+       width: 100%; 
+       margin-top:40px;
+ }
+    
+ input{
+    padding:10px 20px;  
+    margin-left:15px;
+
+ }
+ textarea{
+    position: relative;
+    padding: 0.4rem;
+    font-size: 20px;
+    background:white;
+    border: 2px solid black;
+    top: 30px;
+    left:1rem;
+    resize: none; 
+   
+ }
+ .button-send{
+    position: relative;
+    top:60px ;
+    font-size: 20px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+ } 
+    /* footer */
+
+ .foot-panel1{
+   
+    background-color: #37475a;
+    color: white;
+     height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+   
+   
+}
+     
+      
+  
